@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D000F7FF"
+    android:orientation="vertical"
+    android:id="@+id/Fragment"
+    tools:context=".TicTacToeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_gameName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#000"
+            android:textSize="28sp"
+            android:text="Game: Tic Tac Toe" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_R0C0"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="2dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="X"></Button>
+
+            <Button
+                android:id="@+id/button_R0C1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="2dp"
+                android:textSize="18sp"
+                android:textStyle="bold"></Button>
+
+            <Button
+                android:id="@+id/button_R0C2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="2dp"
+                android:textSize="18sp"
+                android:textStyle="bold"></Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_R1C0"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="2dp"
+                android:textSize="18sp"
+                android:textStyle="bold"></Button>
+
+            <Button
+                android:id="@+id/button_R1C1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="2dp"
+                android:textSize="18sp"
+                android:textStyle="bold"></Button>
+
+            <Button
+                android:id="@+id/button_R1C2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="2dp"
+                android:textSize="18sp"
+                android:textStyle="bold"></Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_R2C0"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="2dp"
+                android:textSize="18sp"
+                android:textStyle="bold"></Button>
+
+            <Button
+                android:id="@+id/button_R2C1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="2dp"
+                android:textSize="18sp"
+                android:textStyle="bold"></Button>
+
+            <Button
+                android:id="@+id/button_R2C2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="2dp"
+                android:textSize="18sp"
+                android:textStyle="bold"></Button>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
